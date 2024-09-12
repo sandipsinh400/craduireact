@@ -5,16 +5,18 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import ClassState from "./pages/ClassState"
 import Counter from "./pages/Counter"
+import UseEffectHook from "./pages/UseEffeac"
 
 function App(){
     return(
         <>  
        <Header></Header>
        {/* <Home></Home> */}
-       {/* <About></About> */}
+    
        <Counter></Counter>
+       
         {/* <ClassState/> */}
-       <Contact></Contact>
+       <UseEffectHook></UseEffectHook>
        <Footer/>
         </>
     )
