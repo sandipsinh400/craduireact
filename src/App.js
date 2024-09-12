@@ -4,6 +4,7 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import ClassState from "./pages/ClassState"
+import Counter from "./pages/Counter"
 
 function App(){
     return(
@@ -11,7 +12,8 @@ function App(){
        <Header></Header>
        {/* <Home></Home> */}
        {/* <About></About> */}
-        <ClassState/>
+       <Counter></Counter>
+        {/* <ClassState/> */}
        <Contact></Contact>
        <Footer/>
         </>
