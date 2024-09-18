@@ -6,6 +6,8 @@ import Contact from "./pages/Contact"
 import ClassState from "./pages/ClassState"
 import Counter from "./pages/Counter"
 import UseEffectHook from "./pages/UseEffeac"
+import Singup from "./pages/Signup"
+import ValidForm from "./pages/ValidForm"
 
 function App(){
     return(
@@ -16,7 +18,10 @@ function App(){
        <Counter></Counter>
        
         {/* <ClassState/> */}
-       <UseEffectHook></UseEffectHook>
+       {/* <UseEffectHook></UseEffectHook> */}
+       <ValidForm></ValidForm>
+
+       {/* <Singup/> */}
        <Footer/>
         </>
     )
