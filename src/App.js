@@ -15,13 +15,13 @@ function App(){
        <Header></Header>
        {/* <Home></Home> */}
     
-       <Counter></Counter>
+       {/* <Counter></Counter> */}
        
         {/* <ClassState/> */}
        {/* <UseEffectHook></UseEffectHook> */}
-       <ValidForm></ValidForm>
-
-       {/* <Singup/> */}
+       {/* <ValidForm></ValidForm> */}
+       
+       <Singup/>
        <Footer/>
         </>
     )
